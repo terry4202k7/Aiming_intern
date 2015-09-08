@@ -5,11 +5,13 @@ using System.Collections.Generic;
 using MiniJSON;
 
 public class SaveId : MonoBehaviour {
-	
+
+
 	string strId, strRo;
 	public InputField inputFieldId,inputFieldRo ;
 	//public Text textId;
-
+	public static string  state ,role;
+	public static long user_id,play_id;
 	public void SaveTextId () {
 		strId = inputFieldId.text;
 		strRo = inputFieldRo.text;
@@ -34,10 +36,15 @@ public class SaveId : MonoBehaviour {
 			
 			// 文字列を json に合わせて構成された辞書に変換
 			var json = Json.Deserialize (jsonText) as Dictionary<string, object>;
-			Debug.Log (json["user_id"]);
-			Debug.Log (json["play_id"]);
-			Debug.Log (json["state"]);
-			Debug.Log (json["role"]);
+			user_id= (long)json["user_id"];
+			Debug.Log (user_id);
+			play_id= (long)json["play_id"];
+			Debug.Log (play_id);
+			state= (string)json["state"];
+			Debug.Log (state);
+			role= (string)json["role"];
+			Debug.Log (role);
+
 		}
 	}
 
