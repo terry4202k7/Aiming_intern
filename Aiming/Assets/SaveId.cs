@@ -33,6 +33,7 @@ public class SaveId : MonoBehaviour {
 		} else if (state == "playing") {
 
 			Debug.Log(" The Game will start ");
+			Application.LoadLevel("main");
 		}
 
 	}

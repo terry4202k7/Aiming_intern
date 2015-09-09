@@ -49,6 +49,7 @@
      <Compile Include="Assets\Listjson\MiniJSON.cs" />
      <Compile Include="Assets\Notice.cs" />
      <Compile Include="Assets\SaveId.cs" />
+     <Compile Include="Assets\test.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
