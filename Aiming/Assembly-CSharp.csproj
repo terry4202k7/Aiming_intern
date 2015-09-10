@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Listjson\MiniJSON.cs" />
+     <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\Notice.cs" />
      <Compile Include="Assets\SaveId.cs" />
      <Compile Include="Assets\test.cs" />

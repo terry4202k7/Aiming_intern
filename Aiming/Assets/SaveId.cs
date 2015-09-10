@@ -55,6 +55,9 @@ public class SaveId : MonoBehaviour {
 		form.AddField("room_no", strRo);
 		WWW www = new WWW(url, form);
 		yield return www;
+
+
+
 		if (www.error == null) {
 			Debug.Log(www.text);
 			var textAsset =www;
@@ -84,6 +87,7 @@ public class SaveId : MonoBehaviour {
 			Debug.Log(www.text);
 			var textAsset =www;
 			var jsonText = textAsset.text;
+
 			
 			
 			var json = Json.Deserialize (jsonText) as Dictionary<string, object>;
