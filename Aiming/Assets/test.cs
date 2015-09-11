@@ -4,29 +4,6 @@ using System.Collections.Generic;
 using MiniJSON;
 
 
-public class Koma: MonoBehaviour 
-
-{	
-	public  string Name{ get; set;}
-	public int Id{ get; set;}
-	public long Posx { get; set; }
-	
-	public  long Posy { get; set; }
-
-
-
-	/*public GameObject Pice()
-
-	{
-
-	
-	}*/
-	
-}
-
-
-
-
 public class test : MonoBehaviour {
 	public string komaName;
 	public long posx; 
@@ -51,8 +28,8 @@ public class test : MonoBehaviour {
 
 
 
-	public List<Koma> komas  = new List<Koma>();
-	public int fk=2;
+	public static List<Koma> komas  = new List<Koma>();
+
 
 
 
@@ -61,40 +38,16 @@ public class test : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log (SaveId.play_id+"in main page");
-	
-	//	stantiate(enemy);
-
-	//	fu1.transform.localPosition = new Vector3(0, 100, 0);
-		StartCoroutine (GetData2());
+		StartCoroutine (GetData2 ());
 	}
-
-
-
-	// Update is called once per frame
 	void Update () {	
-		//StartCoroutine (GetData2());
-		/*
-		foreach (Koma ssss in komas) 
-		{
-		Debug.Log(ssss);
-		}
-		//Debug.Log(komas[fk]);
-
-*/
+	
 	}
 
-	public void make(){// 配列つくって回せばよかった
-
-	
-
-
-
-
-
+	public void make(){//
 		
 		if (owner == 2) {
-			switch (komaName) {
+			switch (komaName) {//これは、やばい
 			case "fu": 
 			
 				var obj = Instantiate (this.fu, new Vector3 (posx, posy, 0), Quaternion.identity) as GameObject;
@@ -245,12 +198,6 @@ public class test : MonoBehaviour {
 				}
 
 				make ();
-				
-
-
-			//	Debug.Log(posx+"x:"+posy+"y:"+owner+"own");
-
-
 		}
 	}
 
