@@ -9,7 +9,7 @@ public class test : MonoBehaviour {
 	public long posx; 
 	public long posy; 
 	public long owner;
-	public GameObject fu;
+	public GameObject fu;//gameObject 
 	public GameObject kasya;
 	public GameObject hisya;
 	public GameObject keima;
@@ -27,7 +27,6 @@ public class test : MonoBehaviour {
 	public GameObject gine;
 
 
-
 	public static List<Koma> komas  = new List<Koma>();
 
 
@@ -39,15 +38,16 @@ public class test : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		StartCoroutine (GetData2 ());
+
 	}
 	void Update () {	
 	
 	}
 
-	public void make(){//
+	public void make(){//駒の作成を行っている
 		
-		if (owner == 2) {
-			switch (komaName) {//これは、やばい
+		if (owner %2!=0 ) {
+			switch (komaName) {//これは、やばい　要修正！！
 			case "fu": 
 			
 				var obj = Instantiate (this.fu, new Vector3 (posx, posy, 0), Quaternion.identity) as GameObject;
@@ -159,7 +159,7 @@ public class test : MonoBehaviour {
 	}
 	
 	
-	IEnumerator GetData2(){
+	IEnumerator GetData2(){// 駒の位置情報の取得とパース　ツール化すればよかった。
 		
 		Debug.Log("in get data");
 		string url = SaveId.strIp+"/plays/"+SaveId.play_id+"/pieces";
@@ -170,8 +170,12 @@ public class test : MonoBehaviour {
 			Debug.Log(www.text);
 			var textAsset =www;
 			var jsonText = textAsset.text;
-		
-		//	string ss="2";
+
+		/*
+		 * パース方法を修正する方法がある
+		 * 
+		 * 駒別に値を持たせるのが楽になるようにするべき
+		 */
 
 			var json = Json.Deserialize (jsonText) as Dictionary<string, object>;
 		

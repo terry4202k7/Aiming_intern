@@ -19,14 +19,9 @@ public class Koma: MonoBehaviour
 	{
 
 		if (Input.GetMouseButtonDown (0) && s == true) {
-			vec = Input.mousePosition;
+			vec = Input.mousePosition;//マウスの座標取得
 		
 
-
-
-
-			Debug.Log (transform.localPosition);
-		
 	
 			transform.SetParent (GameObject.Find ("main").transform, false);
 			this.transform.position = vec;
@@ -35,11 +30,7 @@ public class Koma: MonoBehaviour
 
 }
 	public void Click(){
-
 		s=true;
-
-
-
 	}
 
 	void Trs(){

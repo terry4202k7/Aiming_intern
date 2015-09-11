@@ -39,8 +39,8 @@ public class SaveId : MonoBehaviour {
 
 	}
 
-	public void SaveTextId () {
-		strId = inputFieldId.text;
+	public void SaveTextId () { // LOG In ボタンが押されたら実行
+		strId = inputFieldId.text;　
 		strRo = inputFieldRo.text;
 		strIp = inputFieldIp.text;
 
@@ -91,11 +91,9 @@ public class SaveId : MonoBehaviour {
 			Debug.Log(www.text);
 			var textAsset =www;
 			var jsonText = textAsset.text;
-
-			
-			
 			var json = Json.Deserialize (jsonText) as Dictionary<string, object>;
-			state= (string)json["state"];
+
+	 state= (string)json["state"];
 			Debug.Log (state);
 
 		}
