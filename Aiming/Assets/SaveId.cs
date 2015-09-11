@@ -9,8 +9,8 @@ public class SaveId : MonoBehaviour {
 
 
 
-	string strId, strRo;
-	public InputField inputFieldId,inputFieldRo ;
+	public static string strId, strRo, strIp;
+	public InputField inputFieldId,inputFieldRo,inputFieldIp;
 	//public Text textId;
 	public static string  state ,role;
 	public static long user_id,play_id;
@@ -29,6 +29,7 @@ public class SaveId : MonoBehaviour {
 	void Update(){
 		if (state == "waiting") {
 			notice.SetActive (true);
+
 			StartCoroutine (GetData ());// updating game state
 		} else if (state == "playing") {
 
@@ -41,15 +42,18 @@ public class SaveId : MonoBehaviour {
 	public void SaveTextId () {
 		strId = inputFieldId.text;
 		strRo = inputFieldRo.text;
+		strIp = inputFieldIp.text;
+
+
 		Debug.Log (strId);
 		StartCoroutine(PostData());
 
 }
-
+//	192.168.33.11:3000
 	 IEnumerator PostData(){
 
 		Debug.Log("in get data");
-		string url = "192.168.33.11:3000/users/login";
+		string url = strIp+"/users/login";
 		WWWForm form = new WWWForm();
 		form.AddField("name", strId);
 		form.AddField("room_no", strRo);
@@ -79,7 +83,7 @@ public class SaveId : MonoBehaviour {
 	IEnumerator GetData(){
 		
 		Debug.Log("in get data");
-		string url = "192.168.33.11:3000/plays/"+play_id+"/state";
+		string url = strIp+"/plays/"+play_id+"/state";
 	
 		WWW www = new WWW(url);
 		yield return www;

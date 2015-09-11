@@ -17,12 +17,20 @@ Loading C:\Users\intern\Documents\Aiming_intern\Aiming\aa_Data\Managed\UnityEngi
 Platform assembly: C:\Users\intern\Documents\Aiming_intern\Aiming\aa_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\intern\Documents\Aiming_intern\Aiming\aa_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: C:\Users\intern\Documents\Aiming_intern\Aiming\aa_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.044 seconds
+- Completed reload, in  0.038 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 Platform assembly: C:\Users\intern\Documents\Aiming_intern\Aiming\aa_Data\Managed\System.dll (this message is harmless)
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+in get data
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
 1
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
@@ -31,11 +39,11 @@ in get data
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-{"user_id":254,"play_id":1,"state":"playing","role":"watcher"}
+{"user_id":269,"play_id":1,"state":"playing","role":"watcher"}
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-254
+269
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
@@ -55,17 +63,25 @@ watcher
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.466602 ms
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 341.
-Total: 0.859733 ms (FindLiveObjects: 0.070336 ms CreateObjectMapping: 0.059468 ms MarkObjects: 0.704269 ms  DeleteObjects: 0.024149 ms)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.054151 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 356.
+Total: 0.452205 ms (FindLiveObjects: 0.027168 ms CreateObjectMapping: 0.023546 ms MarkObjects: 0.390321 ms  DeleteObjects: 0.010565 ms)
 
 in get data
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
 in get data
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+{"1":{"name":"fu","posx":9,"posy":7,"owner":2,"promote":false},"2":{"name":"fu","posx":8,"posy":7,"owner":2,"promote":false},"3":{"name":"fu","posx":7,"posy":7,"owner":2,"promote":false},"4":{"name":"fu","posx":6,"posy":7,"owner":2,"promote":false},"5":{"name":"fu","posx":5,"posy":7,"owner":2,"promote":false},"6":{"name":"fu","posx":4,"posy":7,"owner":2,"promote":false},"7":{"name":"fu","posx":3,"posy":7,"owner":2,"promote":false},"8":{"name":"fu","posx":2,"posy":7,"owner":2,"promote":false},"9":{"name":"fu","posx":1,"posy":7,"owner":2,"promote":false},"10":{"name":"fu","posx":1,"posy":3,"owner":1,"promote":false},"11":{"name":"fu","posx":2,"posy":3,"owner":1,"promote":false},"12":{"name":"fu","posx":3,"posy":3,"owner":1,"promote":false},"13":{"name":"fu","posx":4,"posy":3,"owner":1,"promote":false},"14":{"name":"fu","posx":5,"posy":3,"owner":1,"promote":false},"15":{"name":"fu","posx":6,"posy":3,"owner":1,"promote":false},"16":{"name":"fu","posx":7,"posy":3,"owner":1,"promote":false},"17":{"name":"fu","posx":8,"posy":3,"owner":1,"promote":false},"18":{"name":"fu","posx":9,"posy":3,"owner":1,"promote":false},"19":{"name":"kyosha","posx":9,"posy":9,"owner":2,"promote":false},"20":{"name":"kyosha","posx":1,"posy":9,"owner":2,"promote":false},"21":{"name":"kyosha","posx":1,"posy":1,"owner":1,"promote":false},"22":{"name":"kyosha","posx":9,"posy":1,"owner":1,"promote":false},"23":{"name":"keima","posx":8,"posy":9,"owner":2,"promote":false},"24":{"name":"keima","posx":2,"posy":9,"owner":2,"promote":false},"25":{"name":"keima","posx":2,"posy":1,"owner":1,"promote":false},"26":{"name":"keima","posx":8,"posy":1,"owner":1,"promote":false},"27":{"name":"gin","posx":7,"posy":9,"owner":2,"promote":false},"28":{"name":"gin","posx":3,"posy":9,"owner":2,"promote":false},"29":{"name":"gin","posx":3,"posy":1,"owner":1,"promote":false},"30":{"name":"gin","posx":7,"posy":1,"owner":1,"promote":false},"31":{"name":"kin","posx":6,"posy":9,"owner":2,"promote":false},"32":{"name":"kin","posx":4,"posy":9,"owner":2,"promote":false},"33":{"name":"kin","posx":4,"posy":1,"owner":1,"promote":false},"34":{"name":"kin","posx":6,"posy":1,"owner":1,"promote":false},"35":{"name":"hisha","posx":2,"posy":8,"owner":2,"promote":false},"36":{"name":"hisha","posx":8,"posy":2,"owner":1,"promote":false},"37":{"name":"kaku","posx":8,"posy":8,"owner":2,"promote":false},"38":{"name":"kaku","posx":2,"posy":2,"owner":1,"promote":false},"39":{"name":"oh","posx":5,"posy":9,"owner":2,"promote":false},"40":{"name":"oh","posx":5,"posy":1,"owner":1,"promote":false}}
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
@@ -81,27 +97,131 @@ ArgumentException: The thing you want to instantiate is null.
  
 (Filename:  Line: -1)
 
-{"1":{"name":"fu","posx":9,"posy":7,"owner":2,"promote":false},"2":{"name":"fu","posx":8,"posy":7,"owner":2,"promote":false},"3":{"name":"fu","posx":7,"posy":7,"owner":2,"promote":false},"4":{"name":"fu","posx":6,"posy":7,"owner":2,"promote":false},"5":{"name":"fu","posx":5,"posy":7,"owner":2,"promote":false},"6":{"name":"fu","posx":4,"posy":7,"owner":2,"promote":false},"7":{"name":"fu","posx":3,"posy":7,"owner":2,"promote":false},"8":{"name":"fu","posx":2,"posy":7,"owner":2,"promote":false},"9":{"name":"fu","posx":1,"posy":7,"owner":2,"promote":false},"10":{"name":"fu","posx":1,"posy":3,"owner":1,"promote":false},"11":{"name":"fu","posx":2,"posy":3,"owner":1,"promote":false},"12":{"name":"fu","posx":3,"posy":3,"owner":1,"promote":false},"13":{"name":"fu","posx":4,"posy":3,"owner":1,"promote":false},"14":{"name":"fu","posx":5,"posy":3,"owner":1,"promote":false},"15":{"name":"fu","posx":6,"posy":3,"owner":1,"promote":false},"16":{"name":"fu","posx":7,"posy":3,"owner":1,"promote":false},"17":{"name":"fu","posx":8,"posy":3,"owner":1,"promote":false},"18":{"name":"fu","posx":9,"posy":3,"owner":1,"promote":false},"19":{"name":"kyosha","posx":9,"posy":9,"owner":2,"promote":false},"20":{"name":"kyosha","posx":1,"posy":9,"owner":2,"promote":false},"21":{"name":"kyosha","posx":1,"posy":1,"owner":1,"promote":false},"22":{"name":"kyosha","posx":9,"posy":1,"owner":1,"promote":false},"23":{"name":"keima","posx":8,"posy":9,"owner":2,"promote":false},"24":{"name":"keima","posx":2,"posy":9,"owner":2,"promote":false},"25":{"name":"keima","posx":2,"posy":1,"owner":1,"promote":false},"26":{"name":"keima","posx":8,"posy":1,"owner":1,"promote":false},"27":{"name":"gin","posx":7,"posy":9,"owner":2,"promote":false},"28":{"name":"gin","posx":3,"posy":9,"owner":2,"promote":false},"29":{"name":"gin","posx":3,"posy":1,"owner":1,"promote":false},"30":{"name":"gin","posx":7,"posy":1,"owner":1,"promote":false},"31":{"name":"kin","posx":6,"posy":9,"owner":2,"promote":false},"32":{"name":"kin","posx":4,"posy":9,"owner":2,"promote":false},"33":{"name":"kin","posx":4,"posy":1,"owner":1,"promote":false},"34":{"name":"kin","posx":6,"posy":1,"owner":1,"promote":false},"35":{"name":"hisha","posx":2,"posy":8,"owner":2,"promote":false},"36":{"name":"hisha","posx":8,"posy":2,"owner":1,"promote":false},"37":{"name":"kaku","posx":8,"posy":8,"owner":2,"promote":false},"38":{"name":"kaku","posx":2,"posy":2,"owner":1,"promote":false},"39":{"name":"oh","posx":5,"posy":9,"owner":2,"promote":false},"40":{"name":"oh","posx":5,"posy":1,"owner":1,"promote":false}}
+(60.0, -128.0, 0.0)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-(0.0, 128.0, 0.0)
+(-60.0, -128.0, 0.0)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-(60.0, 128.0, 0.0)
+(240.0, -128.0, 0.0)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-(120.0, 128.0, 0.0)
+(-240.0, -128.0, 0.0)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-(130.0, 112.0, 0.0)
+(-180.0, -128.0, 0.0)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 
-(13.0, -28.0, 0.0)
+(-138.0, -48.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(85.0, -133.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(85.0, -133.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(48.0, -134.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(48.0, -134.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(48.0, -134.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(48.0, -134.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(65.0, -132.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(68.0, -132.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(70.0, -132.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(120.0, -128.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(123.0, -132.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(180.0, -128.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(204.0, -133.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(225.0, -134.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-120.0, -128.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-132.0, -135.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-159.0, -134.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-183.0, -134.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-185.0, -134.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-201.0, -132.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-189.0, -131.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-188.0, -131.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-188.0, -131.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-188.0, -131.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-188.0, -131.0, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+(-188.0, -131.0, 0.0)
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
 

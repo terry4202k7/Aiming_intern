@@ -162,7 +162,7 @@ public class test : MonoBehaviour {
 	IEnumerator GetData2(){
 		
 		Debug.Log("in get data");
-		string url = "192.168.33.11:3000/plays/"+SaveId.play_id+"/pieces";
+		string url = SaveId.strIp+"/plays/"+SaveId.play_id+"/pieces";
 		
 		WWW www = new WWW(url);
 		yield return www;
@@ -185,17 +185,11 @@ public class test : MonoBehaviour {
 				posy= (long)description["posy"];
 				owner= (long)description["owner"];
 
-				
-				if (posx == 5) {
-					posx = 0;
-				} else  {
-					posx = (5 - posx) * 60;
-				}
-				if (posy == 5) {
-					posy = 0;
-				} else  {
-					posy = (5 - posy) * 64;
-				}
+				posx = Cal.calx1(posx);
+				posy = Cal.caly1(posy);
+
+
+
 
 				make ();
 		}
